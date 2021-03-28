@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Form</title>
+</head>
+<body>
+	<form action="/student" method="post">
+		Name: <input type="text" name="name"/> <br/> 
+		GPA: <input type="text" name="gpa"/> <br/> 
+		Major:
+	     <select name="major">
+	     	<option value="web">Web Design</option>
+	     	<option value="java">Java Programming</option>
+	     	<option value="graphics">Graphics</option>
+	     	<option value="net">.NET Programming</option>
+	     </select>
+	     <br/>
+		 <input type="submit" value="Register"/> 
+		 <input type="button" value="List Student"/> 
+	</form>
+</body>
+</html>
